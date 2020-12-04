@@ -47,16 +47,9 @@ async function getBackgroundImg(){
         //console.log("inside else..");
         bg = "sprites/bg2.jpg";
     }
-    backgroundImg = loadImage(bg);
-  
-    
+    backgroundImg = loadImage(bg);  
  
-
 }
-
-   
-
-
 
 function setup(){
     var canvas = createCanvas(1200,400);
